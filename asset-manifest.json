@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/reactanimals/static/css/main.33dcca40.css",
+    "main.js": "/reactanimals/static/js/main.97b36858.js",
+    "static/js/787.5bd97153.chunk.js": "/reactanimals/static/js/787.5bd97153.chunk.js",
+    "static/media/NotoSerif-Bold.woff": "/reactanimals/static/media/NotoSerif-Bold.16b36a464d1c794bc683.woff",
+    "static/media/NotoSerif-Regular.woff": "/reactanimals/static/media/NotoSerif-Regular.9253404bd25d1bd24641.woff",
+    "index.html": "/reactanimals/index.html",
+    "main.33dcca40.css.map": "/reactanimals/static/css/main.33dcca40.css.map",
+    "main.97b36858.js.map": "/reactanimals/static/js/main.97b36858.js.map",
+    "787.5bd97153.chunk.js.map": "/reactanimals/static/js/787.5bd97153.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33dcca40.css",
+    "static/js/main.97b36858.js"
+  ]
+}
