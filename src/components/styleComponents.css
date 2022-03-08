@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'NotoSerif-Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-display:swap;
+    src: local(''),
+        url('./Fonts/NotoSerif-Regular.woff') format('woff'); 
+  }
+ 
+  @font-face {
+    font-family: 'NotoSerif-Bold';
+    font-style: normal;
+    font-weight: 800;
+    font-display:swap;
+    src: local(''),
+         url('./Fonts/NotoSerif-Bold.woff') format('woff'); 
+  }
+
+
+body{
+    background-color:aquamarine;
+    font-family:'NotoSerif-Regular';
+}
+.form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    height: 16vw;
+    margin: 0 auto;
+    border-radius: 2%;
+    margin-top: 12vw;
+}
+.input{
+    margin-top: 6vw;
+    border: 1px solid gray;
+    border-radius: 2%;
+    background-color: azure;
+    }
+.input::placeholder{
+    color: gray;
+}    
+.button{
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+    border-radius: 5%;
+}
+.link{
+    font-family:'NotoSerif-Bold';
+    margin-right: 5vw;
+}
+.dataAnimal{
+    position: absolute;
+    z-index: 2;
+    width: 40vw;
+    height: 20vw;
+    background-color: white;
+    top: 5vw;
+    left: 28%;
+    display: none;
+    border-radius: 5px;
+}
+.close{
+text-align: right;
+margin-right: 2vw;
+}
+.title{
+    font-family:'NotoSerif-Bold';
+}
+item{
+    font-size: 20px;
+}
+.prev,.next{
+    background-color: blueviolet;
+    width: 250px;
+    height: 50px;
+    color: aliceblue;
+    font-size: 14px;
+  }
+  .formAuth{
+  margin-bottom: -5vw;
+  font-size: 2vw;
+  }
